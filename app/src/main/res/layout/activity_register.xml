@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            app:srcCompat="@drawable/userphoto" />
+
+        <EditText
+            android:background="@drawable/edittext_style"
+            android:id="@+id/email"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:hint="Email"
+            android:inputType="textWebEmailAddress" />
+
+        <EditText
+            android:background="@drawable/edittext_style"
+            android:id="@+id/password"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:hint="Password"
+            android:inputType="textWebPassword" />
+
+        <EditText
+            android:background="@drawable/edittext_style"
+            android:id="@+id/confirmpassword"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:hint="ConfirmPassword"
+            android:inputType="textWebPassword" />
+
+        <Button
+            android:background="@drawable/button_edit"
+            android:id="@+id/Register"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:text="Register" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/edittext_style"
+            android:text="Already Having An Account?"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/buttonn"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:background="@drawable/button_edit"
+            android:backgroundTint="#848482"
+            android:text="LOG IN" />
+
+    </LinearLayout>
+</RelativeLayout>

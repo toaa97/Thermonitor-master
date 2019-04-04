@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1D0CE"
+    tools:context=".DeviceDetailActivity">
+
+    <TextView
+        android:id="@+id/txtCC"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="200dp"
+        android:text="Celsius:"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/txtFF"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="255dp"
+        android:text="Fahrenheit:"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/txtC"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="200dp"
+        android:hint="temp"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/txtF"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="255dp"
+        android:hint="temp"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/txtCCC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="200dp"
+        android:text="°C"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/txtFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="255dp"
+        android:text="°F"
+        android:textSize="30dp" />
+
+
+    <Button
+        android:id="@+id/buttondelete"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/button_edit"
+        android:text="Delete account" />
+
+    <Button
+        android:id="@+id/buttonlogout"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/button_edit"
+        android:text="logout" />
+
+
+</RelativeLayout>

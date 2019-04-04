@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/customlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D1D0CE"
+    >
+
+
+    <ImageView
+        android:id="@+id/edtImage"
+        android:layout_width="35pt"
+        android:layout_height="35pt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/edittext_style" />
+
+    <TextView
+        android:id="@+id/edtText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="13dp"
+        android:layout_toEndOf="@+id/edtImage"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/edtBSSID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="56dp"
+        android:layout_toEndOf="@+id/edtImage"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:text="TextView" />
+
+</RelativeLayout>
